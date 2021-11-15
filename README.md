@@ -1,10 +1,10 @@
-# Table structure recognition for scholarly papers
+# Table structure recognition in academic papers
 
 This project contains a pipeline that takes a folder of PDF files (academic papers) and outputs CSV files of tables.
 
 ## Getting Started
 
-Install the requirements found in requirements.txt using `pip install -r requirements.txt`
+Install the requirements found in requirements.txt using `pip install -r requirements.txt` (python 3)
 
 A dataset of generated tables will be published soon. This will include the ground truth .csv files, original .tex files, .png images of the tables, .png images of the table structure.
 
@@ -22,6 +22,7 @@ You can run the pipeline using `python ./pipeline/batch.py`. Following options a
 * --model, options: 'pix2pixHD' and 'encoder-decoder-skip'
 * --checkpoint_dir, required for pix2pixHD only
 * --skip_generate_images, skips the extraction of tables using pdffigures2
+* --skip_pad_images, skips the padding of images to make them 1024x1024 pixels
 * --skip_predict, skips the prediction phase
 * --skip_find_cells, skips finding the cells based on the outlines
 * --skip_extract_text, skips extracting the text from the cells using Fitz
@@ -30,6 +31,8 @@ You can run the pipeline using `python ./pipeline/batch.py`. Following options a
 ### Installing
 
 `pip install -r requirements.txt`
+
+(apex)
 
 ## Pretrained models
 
