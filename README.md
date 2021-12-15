@@ -34,7 +34,8 @@ For the usage of the pix2pixHD model, the installation of apex is required https
 
 ## Test dataset
 
-Three test datasets are available on Google Drive https://drive.google.com/drive/folders/1n_FDbN3P3FWARaOSpHpWj_pN9YizlAcu?usp=sharing. It contains non-academic tables from the ICDAR 2013 table competition, academic tables from the AAAI 2018 conference, and academic tables from nine conferences over the years 2014 to 2019.
+Three test datasets are available on Google Drive. It contains non-academic tables from the ICDAR 2013 table competition, academic tables from the AAAI 2018 conference, and academic tables from nine conferences over the years 2014 to 2019.
+https://drive.google.com/drive/folders/1n_FDbN3P3FWARaOSpHpWj_pN9YizlAcu?usp=sharing
 
 ## Acknowledgments
 
