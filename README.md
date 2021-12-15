@@ -6,9 +6,9 @@ This project is based on an earlier project by Rink Stiekema https://github.com/
 
 Install the requirements found in requirements.txt using `conda create --name <env> --file requirements.txt` (python 3)
 
-You can generate a dataset using `/tablegenerator/tablegen.py`. See the README file in the tablegenerator folder for more information on this process.
+You can generate a dataset using `/tablegenerator/tablegen.py` and `/tablegenerator/tablegen_special.py`. See the README file in the tablegenerator folder for more information on this process.
 
-Running the pipeline requires a pretrained model. At least two pretrained models will be made available: pix2pixHD and SegNet.
+Running the pipeline requires a pretrained model. Two pretrained models are available, namely pix2pixHD and SegNet. Their checkpoints are stored in the `models` directory.
 The pix2pixHD model is based on NVIDIA's https://github.com/NVIDIA/pix2pixHD/.
 The SegNet model is based on https://github.com/GeorgeSeif/Semantic-Segmentation-Suite. (Encoder-Decoder with skipconnections, InceptionV4)
 
