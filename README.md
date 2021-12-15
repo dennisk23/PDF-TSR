@@ -1,6 +1,6 @@
 # Table structure recognition in academic papers
 
-This project is based on an earlier project by Rink Stiekema https://github.com/rinkstiekema/PDF-Table-Structure-Recognition-using-deep-learning. It contains a pipeline that takes a folder of PDF files (academic papers) as input and outputs CSV files of tables.
+This project is built upon an earlier project by Rink Stiekema https://github.com/rinkstiekema/PDF-Table-Structure-Recognition-using-deep-learning. It contains a pipeline that takes a folder of PDF files (academic papers) as input and outputs CSV files of tables.
 
 ## Getting Started
 
@@ -30,11 +30,11 @@ You can run the pipeline using `python ./pipeline/batch.py`. Following options a
 
 `conda create --name <env> --file requirements.txt`
 
-And for the pix2pixHD model installation of apex is required: https://github.com/NVIDIA/apex
+For the usage of the pix2pixHD model, the installation of apex is required https://github.com/NVIDIA/apex
 
 ## Test dataset
 
-The test datasets will soon be available
+Three test datasets are available on Google Drive https://drive.google.com/drive/folders/1n_FDbN3P3FWARaOSpHpWj_pN9YizlAcu?usp=sharing. It contains non-academic tables from the ICDAR 2013 table competition, academic tables from the AAAI 2018 conference, and academic tables from nine conferences over the years 2014 to 2019.
 
 ## Acknowledgments
 
