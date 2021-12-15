@@ -1,12 +1,10 @@
 # Table structure recognition in academic papers
 
-This project contains a pipeline that takes a folder of PDF files (academic papers) and outputs CSV files of tables.
+This project is based on an earlier project by Rink Stiekema https://github.com/rinkstiekema/PDF-Table-Structure-Recognition-using-deep-learning. It contains a pipeline that takes a folder of PDF files (academic papers) as input and outputs CSV files of tables.
 
 ## Getting Started
 
-Install the requirements found in requirements.txt using `pip install -r requirements.txt` (python 3)
-
-A dataset of generated tables will be published soon. This will include the ground truth .csv files, original .tex files, .png images of the tables, .png images of the table structure.
+Install the requirements found in requirements.txt using `conda create --name <env> --file requirements.txt` (python 3)
 
 You can generate a dataset using `/tablegenerator/tablegen.py`. See the README file in the tablegenerator folder for more information on this process.
 
@@ -30,14 +28,13 @@ You can run the pipeline using `python ./pipeline/batch.py`. Following options a
 
 ### Installing
 
-`pip install -r requirements.txt`
+`conda create --name <env> --file requirements.txt`
 
-(apex)
+And for the pix2pixHD model installation of apex is required: https://github.com/NVIDIA/apex
 
-## Pretrained models
+## Test dataset
 
-Pretrained models and a small annotated test set can be found in the following google drive:
-https://drive.google.com/drive/u/0/folders/1dgKISbhBNfR8XXnIxUD_sIhwYNurKHbb
+The test datasets will soon be available
 
 ## Acknowledgments
 
